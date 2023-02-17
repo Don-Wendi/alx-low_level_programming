@@ -1,6 +1,6 @@
 /*
  * File: 4-print_alphabt.c
- * Auth: Wendimu S. Tarekegn
+ * Auth: Brennan D Baraban
  */
 
 #include <stdio.h>
@@ -14,13 +14,13 @@ int main(void)
 {
 	char letter;
 
-	for (hohe = 'a'; hohe <= 'z'; hohe++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (hohe != 'e' && hohe != 'q')
-			putchar(hohe);
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
 	}
 
 	putchar('\n');
 
 	return (0);
-}		
+}
